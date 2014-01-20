@@ -6,12 +6,13 @@
 
  html {
   font: normal 100%/1.5 Helvetica,sans-serif; /* 16px/24px */
+  background-color: rgba(255,252,252,1);
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 5% 1.5rem;
+  margin: 0 10% 1.5rem;
 }
 
 .yotta {
@@ -73,16 +74,17 @@ h1, h2, h3, h4, h5, h6,
 
 .brand-family{
 	font-family: Helvetica,sans-serif;
+	color: rgba(161,159,159,1);
 }
 
 .brand-colour,
 .brand-color {
-	color: red;
+	color: rgba(161,159,159,1);
 }
 
 ::selection{
-	background-color: rgba(43,3,4,10);
-	color: rgba(239,208,182,10);
+	background-color: rgba(255,175,175,1);
+	color: rgba(255,252,252,1);
 }
 
 a,
@@ -115,7 +117,7 @@ ul li{
 }
 
 ul li:before{
-	content: "☞";
+	content: "✤";
 	color: #666;
 	position: absolute;
 	left: -1em;
@@ -144,6 +146,9 @@ ul li:before{
 
 table{
 	background-color: #fff;
+	border: 1px solid rgba(128,88,88,1);
+	padding: 1rem;
+	border-radius: 8px;
 }
 
 table th{
@@ -154,5 +159,28 @@ table th{
 
 table td{
 	text-align: center;
+	color: rgba(255,175,175,1);
+}
+
+blockquote{
+	background-color: rgba(255,252,252,1);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	border-radius: 8px;
+	padding: 1.5rem;
+	color: rgba(255,175,175,1);
+	margin: 0 25%;
+	margin-bottom: 1rem;
+}
+
+blockquote footer{
+	color: rgba(128,88,88,1);
+	text-align: right;
+	padding-right: 4rem;
+}
+
+caption{
+	color: rgba(128,88,88,1);
+	padding-bottom: .5rem;
+
 }
 
