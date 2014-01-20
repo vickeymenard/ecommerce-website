@@ -3,3 +3,142 @@
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
  */
+
+ html {
+  font: normal 100%/1.5 Helvetica,sans-serif; /* 16px/24px */
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 5% 1.5rem;
+}
+
+.yotta {
+  font-size: 4.7684rem;
+  line-height: 1.2583;
+}
+
+.zetta {
+  font-size: 3.8147rem;
+  line-height: 1.1796;
+}
+
+h1, .exa {
+  font-size: 3.0518rem;
+  line-height: 1.4746;
+}
+
+h2, .peta {
+  font-size: 2.4414rem;
+  line-height: 1.2288;
+}
+
+h3, .tera {
+  font-size: 1.9531rem;
+  line-height: 1.5360;
+}
+
+h4, .giga {
+  font-size: 1.5625rem;
+  line-height: 1.9200;
+}
+
+h5, .mega {
+  font-size: 1.2500rem;
+  line-height: 1.2000;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.8000rem;
+  line-height: 1.8750;
+}
+
+.micro {
+  font-size: 0.6400rem;
+  line-height: 2.3438;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.brand{
+	color: rgba(128,88,88,1);
+	font-family:'Yeseva One', cursive;
+}
+
+.brand-family{
+	font-family: Helvetica,sans-serif;
+}
+
+.brand-colour,
+.brand-color {
+	color: red;
+}
+
+::selection{
+	background-color: rgba(43,3,4,10);
+	color: rgba(239,208,182,10);
+}
+
+a,
+a:link{
+	font-family: Helvetica;
+	color: rgba(255,175,175,1);
+	text-decoration: none;
+	border-bottom: 0.05em solid rgba(161,159,159,1);
+	transition: all 200ms linear;
+}
+
+a:visited{
+	color: #696;
+	border-bottom-color: rgba(50,150,50,0.5);
+}
+
+a:hover,
+a:focus,
+a:active{
+	color: rgba(161,159,159,1);
+	border-bottom-color: rgba(255,175,175,1);
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	position: relative;
+}
+
+ul li:before{
+	content: "☞";
+	color: #666;
+	position: absolute;
+	left: -1em;
+}
+
+.color1{
+	background-color: rgba(255,175,175,1);
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.color2{
+	background-color: rgba(161,159,159,1);
+	padding: 1rem;
+}
+
+.color3{
+	background-color: rgba(255,252,252,1);
+	padding: 1rem;
+}
+
+.color4{
+	background-color: rgba(128,88,88,1);
+	padding: 1rem;
+	margin-bottom: 5rem;
+}
+
