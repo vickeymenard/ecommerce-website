@@ -1,7 +1,10 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  	- Dark Purple: #281328 rgba(40,19,40,1)
+  	- Teal: #6dd9bd rgba(109,217,189,1)
+	- Green: #cadb67 rgba(202,219,103,1)
+	- Grey: #d4d8c3 rgba(212,216,195,1)
+	- Pink: #bd6d6e rgba(189,109,110,1)
  */
 
  html {
@@ -123,23 +126,29 @@ ul li:before{
 	left: -1em;
 }
 
-.color1{
-	background-color: rgba(255,175,175,1);
+.c-purple{
+	background-color: rgba(40,19,40,1);
 	padding: 1rem 1rem 1rem 1rem;
+	color: #fff;
 }
 
-.color2{
-	background-color: rgba(161,159,159,1);
+.c-teal{
+	background-color: rgba(109,217,189,1);
 	padding: 1rem;
 }
 
-.color3{
-	background-color: rgba(255,252,252,1);
+.c-green{
+	background-color: rgba(202,219,103,1);
 	padding: 1rem;
 }
 
-.color4{
-	background-color: rgba(128,88,88,1);
+.c-grey{
+	background-color: rgba(212,216,195,1);
+	padding: 1rem;
+}
+
+.c-pink{
+	background-color: rgba(189,109,110,1);
 	padding: 1rem;
 	margin-bottom: 5rem;
 }
@@ -151,13 +160,13 @@ table{
 	border-radius: 8px;
 }
 
-table th{
+th{
 	background-color: rgba(161,159,159,1);
 	padding: .5rem;
 	color: rgba(255,252,252,1);
 }
 
-table td{
+td{
 	text-align: center;
 	color: rgba(255,175,175,1);
 }
@@ -182,5 +191,9 @@ caption{
 	color: rgba(128,88,88,1);
 	padding-bottom: .5rem;
 
+}
+
+mark{
+	background-color: rgba(255,175,175,1);
 }
 
