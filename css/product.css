@@ -1,5 +1,27 @@
 .product{
-	background-color: #eae8e1;
+	border-radius: 3px;
+	width: 305px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.flex-img{
+	width:100%;
+}
+
+h2{
+	color:rgba(40,19,40,1);
+	font-family: 'Yeseva One', cursive;
+}
+
+p{
+	color:rgba(189,109,110,1);
+}
+
+.media-body{
 	padding: 1rem;
-	border-radius: 6px;
+	float: right;
+}
+
+a{
+	padding: 1rem;
 }
