@@ -1,0 +1,33 @@
+h5{
+  color: rgba(202,219,103,1);
+
+}
+
+input {
+  margin-left: 5px;
+  padding-left:35px;
+  height:30px; width:0px;
+  background:url(http://bit.ly/17vw9TY) no-repeat;
+  background-size:30px;
+  border:none;
+  border-radius:3px;
+  outline:none;
+  color:transparent;
+  font-size:15px;
+  transition: width 1s, background-color 1s, color 1s;
+}
+
+input:hover {
+  cursor:pointer; 
+}
+
+input:focus { 
+  width:300px;
+  background-color: white;
+  color: rgba(109,217,189,1);
+  border: 1px solid rgba(109,217,189,1);
+  transition:width 1s, background-color 1s, color 1s;
+}
+input:focus:hover {
+  cursor:text; 
+}
