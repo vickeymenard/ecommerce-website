@@ -69,10 +69,16 @@ small, .milli {
 }
 
 
-h1, h2, h3, h4, h5, h6,
+h1,
 .brand{
-	color: rgba(128,88,88,1);
+	color: #281328 rgba(40,19,40,1);
 	font-family:'Yeseva One', cursive;
+}
+
+ h2, h3, h4, h5, h6,
+.brand{
+	color:rgba(189,109,110,1);
+	font-family: helvetica, sans-serif;
 }
 
 .brand-family{
