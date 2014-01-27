@@ -1,6 +1,12 @@
-.media{
-	background-color: rgba(109,217,189,1);
+.media, .small-bucket{
+	border: 1px solid rgba(109,217,189,1);
+	border-radius: 5px;
 	padding: 1rem;
+}
+
+.large-bucket{
+	background-color: 
+	rgba(109,217,189,1);
 }
 
 h2{
