@@ -10,7 +10,5 @@
 footer{
 	padding-top: 3rem;
 	margin-bottom: 0;
-}
-.fa{
-	color: rgba(109,217,189,1);
+	text-align: center;
 }
