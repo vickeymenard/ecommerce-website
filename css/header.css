@@ -1,0 +1,23 @@
+.header{
+	background-color: rgba(40,19,40,1);
+}
+
+.logo{
+	width: 20%;
+	padding: 1rem;
+	float: right;
+}
+
+ul{
+	color: rgba(109,217,189,1);
+	padding: 1rem;
+	overflow: hidden;
+}
+
+li{
+	padding-right: 1rem;
+}
+
+h5{
+	padding: 1rem;
+}
