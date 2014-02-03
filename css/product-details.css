@@ -2,6 +2,16 @@
 	width: 100%;
 }
 
+.jewelery{
+	width: 30%;
+}
+
 .devider{
 	border-top: 1px solid rgba(109,217,189,1);
+	padding-top: 3rem;
+	margin-bottom: 0;
+}
+
+.product{
+	margin-bottom: 2rem;
 }
