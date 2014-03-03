@@ -31,6 +31,7 @@ blockquote, table, hr {
 h1, .exa {
   font-size: 3.0518rem;
   line-height: 1.4746;
+  color: rgba(109,217,189,1);
 }
 
 h2, .peta {
