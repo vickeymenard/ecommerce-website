@@ -21,6 +21,8 @@
   <link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/search-field.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+ </head>
  </head>
  <body>
 
@@ -31,16 +33,16 @@
           <input>Look it up!</input> 
         </h5>
         <ul class="list-group">
-            <a href="index"><li class="list-group-item list-group-item-inline">HOME</li></a>
-            <a href="about"><li class="list-group-item list-group-item-inline">ABOUT</li></a>
-            <a href="thank-you"><li class="list-group-item list-group-item-inline">CONTACT</li></a>
+            <a href="{{site.baseurl}}/"><li class="list-group-item list-group-item-inline">HOME</li></a>
+            <a href="{{site.baseurl}}/about/"><li class="list-group-item list-group-item-inline">ABOUT</li></a>
+            <a href="{{site.baseurl}}/thank-you/"><li class="list-group-item list-group-item-inline">THANK YOU</li></a>
         </ul>
       </div>
   </header>
 
   {{content}}
 
-  <footer class="product unit gutter unit-s-1">
+  <footer class="unit gutter unit-m-1">
     <div class="footer">
       <div>
           <a href="#"><i class="tera fa fa-facebook"></i></a>
