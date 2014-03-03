@@ -5,3 +5,25 @@
 .float-right{
 	float: right;
 }
+
+.support{
+	border: 5px solid black;
+	margin-bottom: 2rem;
+	margin-right: 3%;
+}
+
+.about-pic{
+	border: 5px dotted rgba(202,219,103,1);
+	padding-bottom: 1rem;
+	margin-left: 3%;
+}
+
+.thank-you{
+	border: 2px dotted rgba(202,219,103,1);
+	padding: 1rem;
+	margin: 0 10% 0 10%;
+}
+
+.thank-you-pic{
+	max-width: 50%;
+}
