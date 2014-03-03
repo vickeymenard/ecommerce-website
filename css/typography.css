@@ -75,7 +75,7 @@ h1,
 	font-family:'Yeseva One', c-;
 }
 
- h2, h3, h4, h5, h6,
+ h2, h3, h4, h6,
 .brand{
 	color:rgba(189,109,110,1);
 	font-family: helvetica, sans-serif;
@@ -126,7 +126,6 @@ ul li{
 
 ul li:before{
 	content: "✤";
-	color: #666;
 	position: absolute;
 	left: -1em;
 }
