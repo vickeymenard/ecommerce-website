@@ -5,6 +5,7 @@
 .media-img {
 	float: left;
 	margin: 0 10px 0 0;
+	width: 100%;
 }
 
 .media-body{
