@@ -1,15 +1,14 @@
 ---
 layout: products
-category: accesories
+title: Bracelets
+category: bracelets
 name: Bracelets
-time_periode: Late Cretaceous
-diet: Carnivore
-image: air-dinos/pteranodon.jpg
+designer: Theodor Rams
+area: Cornwall
+image: bracelets/bracelet-main.png
 ---
 
-The *Pteranadon* is the most **fierce** dinosaur that ever existed.
-
-The Pteranadon lived in the [Late Cretaceous Period.] (http://en.wikipedia.org/wiki/Late_Cretaceous)
+Our beautifully hand cafted bracelet are all made of fair trade materials and authentic charms and ornaments.
 
 <!-- # = This replaces a H1
 	 - = List
@@ -17,8 +16,18 @@ The Pteranadon lived in the [Late Cretaceous Period.] (http://en.wikipedia.org/w
 
 ## Features
 
-- Big teeth
-- Small arms
-- Thick tail
+- Authentic charms
+- Unique fabric
+- Original assembly
 
-![T-Rex Skeleton](http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg/443px-Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg)
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/bracelets/bracelet-main.png" alt="">
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/bracelets/bracelet-1.png" alt="">
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/bracelets/bracelet-2.png" alt="">
+</div>
