@@ -27,3 +27,8 @@
 .thank-you-pic{
 	max-width: 50%;
 }
+
+.img-width{
+	max-width: 95%;
+	padding-right: .5rem;
+}
