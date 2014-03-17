@@ -1,0 +1,24 @@
+---
+layout: default
+title: Accesories
+---
+
+<div class="grid">
+	<div class="unit units-s-1 unit-m-1 unit-l-1">
+		<h1>Accesories</h1>
+		<p class="giga">Here are some of the main accesories that we offer.</p>
+	</div>
+</div>
+
+<ul>
+	{% for dino in site.pages %}
+		{% if dino.category == 'dinosaur' %}
+		<li>
+			<a href="{{site.baseurl}}{{dino.url}}">
+				<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+				{{dino.name}}
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
