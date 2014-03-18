@@ -2,15 +2,15 @@
 layout: products
 title: Headband
 category: headband
-name: Headbands
-local_designer: Late Cretaceous
+name: Hair Pieces
+designer: Paula Fern
 area: Carnivore
 image: headband/headband-main.png
 ---
 
-The *Pteranadon* is the most **fierce** dinosaur that ever existed.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis risus sed enim porttitor sollicitudin. Ut ut facilisis turpis, a pulvinar metus. Ut vitae lacus sapien. Integer sit amet pretium metus. Duis quis nunc non orci fermentum tristique vitae vel sapien. Phasellus malesuada lorem dapibus magna rhoncus rutrum. Suspendisse et.
 
-The Pteranadon lived in the [Late Cretaceous Period.] (http://en.wikipedia.org/wiki/Late_Cretaceous)
+
 
 <!-- # = This replaces a H1
 	 - = List
@@ -18,8 +18,18 @@ The Pteranadon lived in the [Late Cretaceous Period.] (http://en.wikipedia.org/w
 
 ## Features
 
-- Big teeth
-- Small arms
-- Thick tail
+- Authentic patterns
+- Unique fabric
+- Original stitching
 
-![T-Rex Skeleton](http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg/443px-Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg)
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/headband/headband-main.png" alt="">
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/headband/hairband-1.png" alt="">
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/headband/hairband-2.png" alt="">
+</div>
