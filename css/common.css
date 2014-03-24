@@ -22,6 +22,8 @@
 	border: 2px dotted rgba(202,219,103,1);
 	padding: 1rem;
 	margin: 0 10% 0 10%;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
 }
 
 .thank-you-pic{
@@ -31,4 +33,11 @@
 .img-width{
 	max-width: 95%;
 	padding-right: .5rem;
+}
+
+h3{
+	border: 1px solid rgba(40,19,40,1);
+	color: rgba(202,219,103,1);
+	padding: .5rem;
+	margin-top: 2rem;
 }
