@@ -8,7 +8,7 @@ area: Ottawa
 image: scarfs/scarf-main.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis risus sed enim porttitor sollicitudin. Ut ut facilisis turpis, a pulvinar metus. Ut vitae lacus sapien. Integer sit amet pretium metus. Duis quis nunc non orci fermentum tristique vitae vel sapien. Phasellus malesuada lorem dapibus magna rhoncus rutrum. Suspendisse et.
+Our beautifully hand cafted bracelet are all made of fair trade materials and authentic charms and ornaments.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis risus sed enim porttitor sollicitudin. Ut ut facilisis turpis, a pulvinar metus. Ut vitae lacus sapien. Integer sit amet pretium metus. Duis quis nunc non orci fermentum tristique vitae vel sapien. Phasellus malesuada lorem dapibus magna rhoncus rutrum. Suspendisse et.
 
 
 
@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis risus se
 	 - = List
 	 ..- = Unordered list -->
 
-## Features
+### Features
 
 - Authentic patterns
 - Unique fabric
