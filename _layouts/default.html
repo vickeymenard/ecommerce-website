@@ -28,11 +28,12 @@
 
   <header>
       <div class="header">
-        <img class="logo" src="../images/logo.svg" alt="logo">
-        <h5>
-          <input>Look it up!</input>
-          <a href="{{site.baseurl}}/search/"> 
-        </h5>
+        <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="logo">
+        <form method="get" action="{{site.baseurl}}/search/">
+          <h5>
+            <input>Look it up!</input>
+          </h5>
+        </form>
         <ul class="list-group">
             <a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/"><li class="list-group-item list-group-item-inline">HOME</li></a>
             <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/"><li class="list-group-item list-group-item-inline">ABOUT</li></a>
@@ -48,11 +49,11 @@
 
   <footer class="unit gutter unit-s-1 unit-m-1">
     <div class="footer">
-      <div>
-          <a href="#"><i class="tera fa fa-facebook"></i></a>
-          <a href="#"><i class="tera fa fa-twitter"></i></a>
-          <a href="#"><i class="tera fa fa-instagram"></i></a>
-          <a href="#"><i class="tera fa fa-flickr"></i></a>
+      <div class="tera">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-flickr"></i></a>
       </div>
       <div class="to-top">
         <a href="#top">Return to Top</a>
