@@ -27,12 +27,13 @@ h5{
 }
 
 .banner{
-  background: #6e9d1b url('../images/banner2.jpg') no-repeat center center;
+  background: #6e9d1b url('../images/banner3.jpg') no-repeat center center;
   background-size: cover;
   text-align: center;
   padding: 5rem 1rem 1rem;
+  margin-bottom: 2rem;
 }
 
-.banner h2{
-  color:#281328;
+.banner-text{
+  color:rgba(244,246,235,1);
 }
