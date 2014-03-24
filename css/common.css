@@ -36,8 +36,34 @@
 }
 
 h3{
-	border: 1px solid rgba(40,19,40,1);
+	border: 1px solid rgba(202,219,103,1);
 	color: rgba(202,219,103,1);
 	padding: .5rem;
 	margin-top: 2rem;
+}
+
+.add-to{
+	margin: 3%;
+}
+
+.no-space{
+	margin: 0;
+}
+
+.cart-img{
+	max-width: 30%;
+}
+
+.float-right{
+	float: right;
+}
+
+.cart-item{
+	padding: .5rem;
+	margin: 1rem;
+	background-color: rgba(202,219,103,.5)
+}
+
+.cart{
+	border: 1px solid rgba(109,217,189,1);
 }
