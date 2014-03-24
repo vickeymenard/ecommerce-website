@@ -12,3 +12,7 @@ footer{
 	margin-bottom: 0;
 	text-align: center;
 }
+
+.footer a,.footer a:link{
+	border: 0;
+}
