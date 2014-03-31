@@ -26,20 +26,22 @@
  </head>
  <body>
 
-  <header>
+  <header role="banner">
       <div class="header">
         <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="logo">
-        <form method="get" action="{{site.baseurl}}/search/">
+        <form method="get" action="{{site.baseurl}}/search/" role="search">
           <h5>
             <input>Look it up!</input>
           </h5>
         </form>
-        <ul class="list-group">
-            <a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/"><li class="list-group-item list-group-item-inline">HOME</li></a>
-            <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/"><li class="list-group-item list-group-item-inline">ABOUT</li></a>
-            <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/products/' %}current {% endif %}" href="{{site.baseurl}}/products/">PRODUCTS</a></li>
-            <a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/"><li class="list-group-item list-group-item-inline">THANK YOU</li></a>
-        </ul>
+        <nav role="navigation">
+          <ul class="list-group">
+              <a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/"><li class="list-group-item list-group-item-inline">HOME</li></a>
+              <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/"><li class="list-group-item list-group-item-inline">ABOUT</li></a>
+              <li class="list-group-item list-group-item-inline"><a class="{% if page.url == '/products/' %}current {% endif %}" href="{{site.baseurl}}/products/">PRODUCTS</a></li>
+              <a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/"><li class="list-group-item list-group-item-inline">THANK YOU</li></a>
+          </ul>
+        </nav>
       </div>
   </header>
 
@@ -47,10 +49,10 @@
 
   {{content}}
 
-  <footer class="unit gutter unit-s-1 unit-m-1">
+  <footer class="unit gutter unit-s-1 unit-m-1" role="contentinfo">
     <div class="footer">
       <div class="tera">
-          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i><span class="visuallyhidden">facebook</span></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-flickr"></i></a>
