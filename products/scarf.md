@@ -23,13 +23,28 @@ Our beautifully hand cafted bracelet are all made of fair trade materials and au
 - Original stitching
 
 <div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
-<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-main.png" alt="">
+	<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-main.png" alt="">
+	<div class="add-to">
+		<h6 class="no-space">BRONZE MULTI-LOOP</h6>
+		<p class="no-space">$30.00</p>
+		<a class="btn" href="{{site.baseurl}}/styleguide/cart">Add to Cart</a>
+	</div>
 </div>
 
 <div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
-<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-1.png" alt="">
+	<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-1.png" alt="">
+	<div class="add-to">
+		<h6 class="no-space">BRONZE MULTI-LOOP</h6>
+		<p class="no-space">$30.00</p>
+		<a class="btn" href="{{site.baseurl}}/styleguide/cart">Add to Cart</a>
+	</div>
 </div>
 
 <div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
-<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-2.png" alt="">
+	<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-2.png" alt="">
+	<div class="add-to">
+		<h6 class="no-space">BRONZE MULTI-LOOP</h6>
+		<p class="no-space">$30.00</p>
+		<a class="btn" href="{{site.baseurl}}/styleguide/cart">Add to Cart</a>
+	</div>
 </div>
