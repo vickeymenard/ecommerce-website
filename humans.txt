@@ -1,0 +1,21 @@
+# humanstxt.org
+
+# TEAM
+
+Vickey Menard designed and coded this entire website. 
+
+
+
+---
+
+# THANKS
+
+Public domain images from pinterest and other various websites.
+
+---
+
+# TECHNOLOGY
+
+Sublime, Github
+
+
