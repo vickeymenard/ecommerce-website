@@ -8,18 +8,29 @@ area: Carnivore
 image: cardigans/cardigan-main.png
 ---
 
-The *Pteranadon* is the most **fierce** dinosaur that ever existed.
 
-The Pteranadon lived in the [Late Cretaceous Period.] (http://en.wikipedia.org/wiki/Late_Cretaceous)
+Our beautifully hand cafted bracelet are all made of fair trade materials and authentic charms and ornaments.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis risus sed enim porttitor sollicitudin. Ut ut facilisis turpis, a pulvinar metus. Ut vitae lacus sapien. Integer sit amet pretium metus. Duis quis nunc non orci fermentum tristique vitae vel sapien. Phasellus malesuada lorem dapibus magna rhoncus rutrum. Suspendisse et.
+
+
 
 <!-- # = This replaces a H1
 	 - = List
 	 ..- = Unordered list -->
 
-## Features
+### Features
 
-- Big teeth
-- Small arms
-- Thick tail
+- Authentic patterns
+- Unique fabric
+- Original stitching
 
-![T-Rex Skeleton](http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg/443px-Archaeopteryx_lithographica_%28Berlin_specimen%29.jpg)
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-main.png" alt="">
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-1.png" alt="">
+</div>
+
+<div class="grid unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<img class="img-width" src="{{site.baseurl}}/images/scarfs/scarf-2.png" alt="">
+</div>
