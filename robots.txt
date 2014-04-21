@@ -1,0 +1,10 @@
+# Hashes are comments
+
+# http://en.wikipedia.org/wiki/Robots_exclusion_standard
+# http://robotstxt.org
+
+
+Sitemap: http://vickeymenard.github.io/ecommerce-website/sitemap.xml
+User-agent: *
+
+Disallow: /name-of-file-you-want-to-disallow/
